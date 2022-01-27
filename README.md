@@ -1,47 +1,55 @@
-# Template Webpack
+# Leaderboard
 
-> One paragraph statement about the project.
+> The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
-
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML, CSS, JS
+- Webpack
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://jihaneh.github.io/Leaderboard/)
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+You need to have [NODE.JS](https://nodejs.org/en/) set up on your local machine.
+
 ### Setup
+
+Download the project and unzip it.
 
 ### Install
 
-### Usage
+Execute this command on your terminal
 
-### Run tests
+```
+npm install
+```
 
 ### Deployment
+
+Execute this command on your terminal
+
+```
+npm start
+```
+
+It will open your browser with the project homepage
 
 ## Authors
 
 👤 **JihaneH**
 
-- GitHub: [@jihaneH](https://github.com/jihaneH)
-- Twitter: [@jijihaddad](https://twitter.com/jijihaddad)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/jihane-haddad/)
+- [GitHub ](https://github.com/jihaneH)
+- [Twitter](https://twitter.com/jijihaddad)
+- [LinkedIn](https://linkedin.com/in/jihane-haddad/)
 
 ## 🤝 Contributing
 
@@ -52,12 +60,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
