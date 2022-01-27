@@ -16,13 +16,21 @@
         <ul></ul>
       </section>
       <section class="add-score">
-        <h2>Add your score</h2>
+        <div class="currentScore">
+          Your current score :
+          <span id="currentScore">0</span>
+        </div>
+
+        <h2>Submit your last score</h2>
         <form>
-          <input type="text" name="name" placeholder="Your name" />
-          <input type="number" name="score" placeholder="Your score" />
+          <small class="hidden"> Name & Score are required</small>
+          <input type="text" name="name" placeholder="Your name" required />
+          <input type="number" name="score" placeholder="Your score" id="lastScore" required />
+
           <button type="submit">Submit</button>
         </form>
       </section>
+      <canvas id="canvas" width="431" height="600"></canvas>
     </main>
   </body>
 </html>
