@@ -1,7 +1,7 @@
 {
-  "name": "webpacktemplate",
+  "name": "leaderboard",
   "version": "1.0.0",
-  "description": "Template for project using Webpack",
+  "description": "The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,17 +16,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jihaneH/WebpackTemplate.git"
+    "url": "git+https://github.com/jihaneH/Leaderboard.git"
   },
   "keywords": [
-    "webpack"
+    "webpack",
+    "html",
+    "css",
+    "js",
+    "api"
   ],
   "author": "Jihane HADDAD",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jihaneH/WebpackTemplate/issues"
+    "url": "https://github.com/jihaneH/Leaderboard/issues"
   },
-  "homepage": "https://github.com/jihaneH/WebpackTemplate#readme",
+  "homepage": "https://github.com/jihaneH/Leaderboard#readme",
   "devDependencies": {
     "@babel/core": "^7.16.12",
     "@babel/preset-env": "^7.16.11",
