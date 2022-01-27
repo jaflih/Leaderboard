@@ -11,7 +11,12 @@ export default class App {
     selector('.refresh').addEventListener('click', () => this.displayScores);
     selector('.add-score button').addEventListener('click', (event) => {
       event.preventDefault();
-      this.registerNewScore(this.form.elements.name.value, this.form.elements.score.value);
+      if (this.form.elements.name.value && this.form.elements.score.value) {
+        selector('small').classList.add('hidden');
+        this.registerNewScore(this.form.elements.name.value, this.form.elements.score.value);
+      } else {
+        selector('small').classList.remove('hidden');
+      }
     });
 
     this.displayScores();
@@ -32,6 +37,7 @@ export default class App {
 
   registerNewScore = async (user, score) => {
     const newScore = await this.game.addScore(user, score);
+    this.form.reset();
     this.displayScore(newScore);
   };
 

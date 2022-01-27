@@ -1,32 +1,46 @@
 * {
   margin: 0;
   padding: 0;
+  background: #506062;
+  color: white;
 }
 
 body {
   font-family: 'Comic Sans MS', 'Comic Sans', cursive;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 
 h1 {
   text-align: center;
   border-bottom: 1px dotted gray;
+  margin-bottom: 10px;
 }
 
 h2 {
   margin: 10px 20px 10px 0;
 }
 
+.add-score h2 {
+  border-bottom: 8px double;
+}
+
+span {
+  background-color: initial;
+}
+
 main,
 .recent-score div {
   display: flex;
   flex-direction: column-reverse;
-  justify-content: center;
-  align-items: center;
+  align-items: stretch;
 }
 
 main section {
   padding: 15px;
+}
+
+::placeholder {
+  color: white;
 }
 
 .recent-score,
@@ -35,6 +49,7 @@ form {
   flex-direction: column;
   align-items: center;
   min-width: 300px;
+  border-radius: 10px;
 }
 
 button {
@@ -43,9 +58,19 @@ button {
   box-shadow: 3px 2px 1px black;
   font-family: 'Comic Sans MS', 'Comic Sans', cursive;
   padding: 4px;
+  color: black;
+  margin-bottom: 10px;
 }
 
-::placeholder {
+small {
+  color: darkorange;
+}
+
+.hidden {
+  display: none;
+}
+
+input::placeholder {
   color: black;
   opacity: 1;
   font-family: 'Comic Sans MS', 'Comic Sans', cursive;
@@ -66,7 +91,8 @@ form {
 
 input {
   border: 2px solid black;
-  line-height: 25px;
+  line-height: 32px;
+  padding: 4px;
 }
 
 ul {
@@ -74,6 +100,7 @@ ul {
   padding-left: 0;
   border: 3px solid black;
   width: 100%;
+  color: black;
 }
 
 li {
@@ -90,10 +117,20 @@ li:nth-child(odd) {
   align-items: center;
 }
 
+canvas {
+  border: 1px dotted gray;
+}
+
+.currentScore {
+  font-size: 22px;
+  border: 9px double yellow;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
 @media (min-width: 750px) {
   main,
   .recent-score div {
-    align-items: baseline;
     flex-direction: row;
   }
 
@@ -107,7 +144,8 @@ li:nth-child(odd) {
   }
 
   h1 {
-    text-align: left;
+    text-align: center;
     border: none;
+    margin-bottom: 10px;
   }
 }

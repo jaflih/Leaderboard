@@ -2,7 +2,7 @@
 
 > The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./app_screenshot2.png)
 
 ## Built With
 
@@ -60,6 +60,10 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+[Source of the Game](https://codepen.io/ju-az/pen/eYJQwLx)
 
 ## 📝 License
 
